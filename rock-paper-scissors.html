@@ -12,14 +12,35 @@
     <script>
 
         function getComputerChoice() {
-            const choices = ["Rock", "Paper", "Scissors"];
+            const choices = ["rock", "paper", "scissors"];
             let choice = choices[Math.floor(Math.random() * choices.length)];
             return choice;
         }
 
+        
+        function getPlayerChoice() {
+            let yourChoice = prompt("rock, paper or scissors?");
+            if (yourChoice.toLowerCase() === "rock" ||
+                yourChoice.toLowerCase() === "paper" ||
+                yourChoice.toLowerCase() === "scissors") {
+            return yourChoice.toLowerCase();
+            } else {
+                alert ("wrong input!");
+                getPlayerChoice();
+            }
+        }
 
+        function playRound(playerSelection, computerSelection) {
+            
+            
+        }
+
+        const playerSelection = getPlayerChoice();
+        const computerSelection = getComputerChoice();
+        //console.log(playRound(playerSelection, computerSelection));
 
     </script>
 </body>
 
 </html>
+
