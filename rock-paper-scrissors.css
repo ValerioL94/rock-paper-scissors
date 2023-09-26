@@ -36,11 +36,18 @@ button {
 }
 
 #runningScore {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     font-size: 40px;
 }
 
-#results {
+.playerScore,
+.cpuScore {
+    margin: 50px 70px;
+}
+
+#roundResult,
+#gameResult {
     text-align: center;
     font-size: 40px;
 }
