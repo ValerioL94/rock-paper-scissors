@@ -1,0 +1,46 @@
+body {
+    background-color: beige;
+}
+
+#h1 {
+    text-align: center;
+    color: rgb(219, 79, 79);
+    font-size: 75px;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 50px;
+}
+
+#options {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 20px;
+    margin: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rock {
+    background-color: rgb(121, 91, 91);
+    border-radius: 50%;
+}
+
+.scissors {
+    background-color: rgb(178, 180, 184);
+    border-radius: 50px;
+}
+
+#runningScore {
+    text-align: center;
+    font-size: 40px;
+}
+
+#results {
+    text-align: center;
+    font-size: 40px;
+}
