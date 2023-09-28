@@ -25,12 +25,12 @@ button {
     font-weight: bold;
 }
 
-.rock {
+#rock {
     background-color: rgb(121, 91, 91);
     border-radius: 50%;
 }
 
-.scissors {
+#scissors {
     background-color: rgb(178, 180, 184);
     border-radius: 50px;
 }
@@ -41,9 +41,14 @@ button {
     font-size: 40px;
 }
 
-.playerScore,
-.cpuScore {
-    margin: 50px 70px;
+#playerScore {
+    margin: 40px 70px;
+    color: green;
+}
+
+#computerScore {
+    margin: 40px 70px;
+    color: red;
 }
 
 #roundResult,
